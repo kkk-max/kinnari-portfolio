@@ -124,10 +124,8 @@ export default function Projects() {
                         </div>
                         <div
                           className="card-img hover_container"
-                          onClick={() => {
-                            
-                            openInNewTab('https://drive.google.com/file/d/1p6MY6EILswkDfxnFgL1yvZPSKyE4WKIX/view?usp=sharing');
-                            // openInNewTab(base64toPDF(d?.projectUrl));
+                          onClick={() => {                            
+                            openInNewTab(base64toPDF(d?.projectUrl));
                           }}
                         >
                           {/* <FiLink color="white" style={hoverStyle} /> */}
